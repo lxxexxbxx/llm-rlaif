@@ -1,4 +1,4 @@
-# llm-rlhf-ppo
+# llm-rlaif
 
 Gemma3-4B에 RLAIF 기반 PPO를 적용한 학습·평가 파이프라인
 
@@ -95,8 +95,8 @@ KMMLU 객관식 문항을 QA 형식으로 변환하는 과정에서, 질문은 �
 ### 준비
 
 ```bash
-git clone https://github.com/lxxexxbxx/llm-rlhf-ppo.git
-cd llm-rlhf-ppo
+git clone https://github.com/lxxexxbxx/llm-rlaif.git
+cd llm-rlaif
 
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
@@ -127,7 +127,7 @@ jupyter lab
 ## 구조
 
 ```
-llm-rlhf-ppo/
+llm-rlaif/
 ├── notebooks/
 │   ├── 01_build_dataset.ipynb   TruthfulQA 번역 · KMMLU QA 변환 · 평가셋 분리
 │   └── 02_rlaif_ppo.ipynb       RLAIF 생성 → 보상 모델 → PPO → 평가 · 시각화
@@ -142,7 +142,7 @@ llm-rlhf-ppo/
 │   ├── eval_base_4b.json        Base 모델 채점 결과
 │   ├── eval_ppo.json            PPO 모델 채점 결과
 │   └── charts/
-└── docs/presentation.pdf
+└── docs/딥러닝응용_팀프로젝트_LLM가f
 ```
 
 ## 데이터 출처 및 라이선스
