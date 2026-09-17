@@ -1,0 +1,14 @@
+{
+  "Base Gemma3-4B": {
+    "n": 50,
+    "accuracy": 1.1,
+    "conciseness": 1.68,
+    "acc_zero": 44
+  },
+  "+ PPO": {
+    "n": 50,
+    "accuracy": 0.78,
+    "conciseness": 0.82,
+    "acc_zero": 46
+  }
+}

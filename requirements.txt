@@ -1,0 +1,13 @@
+torch
+transformers
+datasets
+accelerate
+peft
+bitsandbytes
+trl
+google-generativeai
+deep-translator
+pandas
+matplotlib
+tqdm
+python-dotenv
